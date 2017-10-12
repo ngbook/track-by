@@ -1,0 +1,7 @@
+<div class="app-wrapper">
+    <div class="user-list">
+        <user-item [data]="user"
+            *ngFor="let user of users;trackBy:trackByFn" >
+        </user-item>
+    </div>
+</div>
