@@ -1,5 +1,11 @@
 :host {
+    // display: block;
     .user {
         margin: 5px;
+        border: 1px #ccc solid;
+        padding: 5px;
+        display: inline-block;
+        width: 200px;
+        text-align: center;
     }
 }
